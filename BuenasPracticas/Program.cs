@@ -20,7 +20,10 @@ namespace BuenasPracticas
         /// <param name="objetos"></param>
         void CodigoExcepcion(List<Object> objetos)
         {
-            if (objetos == null) throw new Exception("Las excepcoines al principio");
+            if (objetos == null)
+            {
+                throw new Exception("Las excepcoines al principio");
+            }
         }
 
         /// <summary>
