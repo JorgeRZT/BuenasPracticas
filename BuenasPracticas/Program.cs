@@ -7,6 +7,16 @@ namespace BuenasPracticas
     class Program
     {
         /// <summary>
+        /// El bases de datos existen INTEGER NULL, pero no se permitian en programación hasta que introdujeron
+        /// estas 2 expresiones que permitian obtener "int" nulos
+        /// </summary>
+        void NullableInt()
+        {
+            System.Nullable<int> intNulo = null;
+            int? intNulo2 = null; //Con azucar sintáctico
+        }
+
+        /// <summary>
         /// Nombres de funciones en PascalCase
         /// </summary>
         void NombreEnPascalCase()
